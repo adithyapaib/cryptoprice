@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+.coin_container {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    max-width: 100%;
+    padding: 10px;
+    background: rgb(247, 247, 247);
+    text-align: center;
+  }
+  
+  .coin_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 77vw;
+   margin-bottom: 25px;
+    padding: 0.2em 1.5em 0.2em 1.5em;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.151), inset 5px 5px 10px rgb(250, 249, 249) ;
+  }
+  
+  .coin_row:hover {
+    background: #171718;
+    color: whitesmoke;
+    box-shadow: 5px 5px 10px rgba(148, 148, 148, 0.151), inset 5px 5px 10px  #000000; ;
+  }
+  
+  .coin {
+    display: flex;
+    align-items: center;
+    padding-right: 24px;
+  }
+  
+  .coin_img {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+  }
+  
+  .coin_h1 {
+    font-size: 16px;
+    width: 150px;
+  }
+  
+  .coin_symbol {
+    text-transform: uppercase;
+  }
+  
+  .coin_data {
+    display: flex;
+    text-align: right;
+    justify-content: space-between;
+    
+    width: 100%;
+  
+  }
+  
+  .coin_price {
+    width: 110px;
+  }
+  
+  .coin_volume {
+    width: 155px;
+  }
+  
+  .coin_marketcap {
+    width: 230px;
+  }
+  
+  .coin_percent {
+    width: 100px;
+  }
+  .list
+  {
+      list-style: none;
+  }
+  .red {
+    color: red
+  }
+  
+  .green {
+    color: green;
+  }
+  @media only screen and (max-width: 600px)
+{
+  .coin_container 
+  {
+    max-width: 100%;
+  }
+  .coin_row
+  {
+    width: 100%;
+    background: #000;
+  }
+  .coin_row
+}
